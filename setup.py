@@ -7,10 +7,12 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, 'README.md'), encoding='utf-8') as fh:
     long_description = '\n' + fh.read()
 
+long_description = 'Import get_n_top_colors command to work with'
+
 setup(
-    name='top_colors_pct',
+    name='top_color_pct',
     packages=find_packages(),
-    version='0.1.2',
+    version='0.1.0',
     description='This library allows you to take N top colors from the image',
     author='NasciNSC',
     long_description_content_type='text/markdown',
