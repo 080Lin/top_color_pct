@@ -1,7 +1,7 @@
 # Top-color-ptc 
 ## Library that allows you to input an image and get top N colors as output in percentage rate
 ```python
-from top-color-pct import get_n_top_colors
+from top_color_pct import get_n_top_colors
 
 image = Image.open('EiImg.png').convert('RGB')
 
