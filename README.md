@@ -1,3 +1,10 @@
-# Takes an RGB Image(tested with Pil.Image type)
-Return a dict with hex color value and its percentage on the image
-return example {1: {'hex_name': '#ffffff', 'percentage': 5.50}} 
+# Top-color-ptc 
+## Library that allows you to input an image and get top N colors as output in percentage rate
+```python
+from top-color-pct import get_n_top_colors
+
+image = Image.open('EiImg.png').convert('RGB')
+
+top_5 = get_n_top_colors(image=image, n=5)
+```
+> it returns you a dict of top 5 colors from image. For 0.1.1 version it can work with pillow RGB image type.
